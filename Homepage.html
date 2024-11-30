@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Portfolio.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="./Homepage.html">
+                <img src="https://i.pinimg.com/originals/b1/51/cc/b151ccde97115d63665ef5b1362e7c41.gif" class="logo" alt="logo">
+                Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./AboutPage.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./ProjectPage.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./ServicePage.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="section1" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Alexander Regala</h1>
+                    <p>"As a senior multimedia art student from the Philippines, I bring a dynamic blend of creativity and technical expertise to my work. My passion lies in fashion, 3D modeling, and special effects (SFX), where I strive to push boundaries and craft compelling visuals."</p>
+                    <a href="./AboutPage.html" class="btn btn-dark btn-lg">Learn More</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="./Assets/Character design (Digital Illustration).jpg" alt="Alexander's Work" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/33/e6/45/33e645f2fd498e94d545a3d89a22d851.gif" alt="Graphic Design" class="card-img-top icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Graphic Design</h5>
+                            <p class="card-text">Expert in crafting compelling visuals that resonate.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/e6/9a/b2/e69ab2a370e716ad86cb23f328b439b6.gif" alt="Traditional Drawing" class="card-img-top icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Traditional Drawing</h5>
+                            <p class="card-text">Mastering classical techniques with a modern twist.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/cf/46/82/cf46828e130513df3f196dbd6b33828f.gif" alt="Cover Ups" class="card-img-top icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Cover Ups</h5>
+                            <p class="card-text">Revamping designs with creative transformations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="py-5">
+        <div class="container text-center">
+            <h1>Lastest Work</h1>
+            <p>Showcasing unique, personalized artwork through diverse styles.</p>
+            <div id="carouselWorks" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/typo3_mockup_1.png" class="d-block w-100" alt="Work 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/typo3_design_2.png" class="d-block w-100" alt="Work 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/typo3_design_1.png" class="d-block w-100" alt="Work 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./Assets/typo3_mockup_2.png" class="d-block w-100" alt="Work 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselWorks" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselWorks" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h1>Contact Us</h1>
+            <p>Reach out for inquiries, bookings, or consultations. We're here to make your experience seamless and enjoyable.</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
